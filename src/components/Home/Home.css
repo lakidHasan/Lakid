@@ -1,0 +1,39 @@
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  background-color: rgb(2, 1, 1);
+  color: white;
+  font-family: "Poppins", sans-serif;
+}
+.particle {
+  /* position: absolute !important; */
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  z-index: -1;
+  position: fixed;
+}
+.first-section {
+  /* z-index: 1000; */
+}
+
+.font {
+  font-size: 46px;
+  font-weight: 600;
+  color: aqua;
+  /* font-family: "Poppins", sans-serif; */
+
+}
+.autoType {
+  font-size: 30px;
+  font-weight: 700;
+  color: #f91944;
+}
+
+.paragrap {
+  font-size: 16px;
+  font-weight: 100;
+  font-family: "Poppins", sans-serif;
+}

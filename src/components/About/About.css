@@ -1,0 +1,66 @@
+.skills-btn {
+  background-color: #6c757d;
+  color: white;
+  font-size: 16px;
+  font-weight: 500;
+  border-radius: 5px;
+  padding: 5px;
+  margin: 5px;
+}
+.my-description {
+  width: 35%;
+  margin: auto;
+  text-align: justify;
+  font-family: "Poppins", sans-serif;
+  font-weight: 100;
+  /* color: #f91944; */
+  font-size: 17px;
+  padding: 10px;
+  margin: auto;
+}
+@media screen and (max-width: 467px) {
+  .my-description {
+    width: 85%;
+  }
+  .paragrap {
+    width: 200px;
+    margin: auto;
+    /* text-align: center; */
+  }
+}
+.title {
+  font-size: 38px;
+  color: cyan;
+  font-weight: 600;
+  font-family: "Poppins", sans-serif;
+}
+.sklis {
+  font-size: 24px;
+  font-weight: 600;
+  font-family: "Poppins", sans-serif;
+  color: #f91944;
+}
+.education {
+  text-align: justify;
+  width: 100%;
+  margin: auto;
+  font-family: "Poppins", sans-serif;
+  font-weight: 200;
+  color: cyan;
+}
+.under {
+  list-style: disc;
+  color: crimson;
+  font-weight: 700;
+  font-family: "Poppins", sans-serif;
+  font-size: 30px;
+}
+
+.my-skill {
+  font-size: 38px;
+  font-weight: 700;
+  font-family: "Poppins", sans-serif;
+  color: cyan;
+}
+.sub-skill {
+}

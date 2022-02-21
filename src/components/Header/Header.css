@@ -1,0 +1,21 @@
+.items {
+  list-style: none;
+  font-size: 16px;
+  font-weight: 400;
+  cursor: pointer;
+  font-family: "Volkhov", serif;
+}
+.items:hover {
+  color: blue;
+}
+.name {
+  font-weight: 600;
+  font-size: 26px;
+  font-family: "Volkhov", serif;
+  color: rgb(252, 69, 69);
+}
+.last-item {
+  border: 1px solid red;
+  padding: 10px;
+  border-radius: 25px;
+}
