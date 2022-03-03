@@ -1,22 +1,18 @@
 import React, { useEffect, useState } from "react";
 import ProjectsCarousel from "../Carousel/Carousel";
 import "./Projects.css";
-import home from "../../Projects/spicy-magic-Home.JPG";
-import about from "../../Projects/Spicy-magic-About.JPG";
-import manage from "../../Projects/spicy-magic-manage-Food.JPG";
-import add from "../../Projects/Spicy-magic-Add-Food.JPG";
-import DreamEduHome from "../../Projects/DreamEdu-Home.JPG";
-import DreamEduDashboard from "../../Projects/DreamEdu-Dashboard.JPG";
-import DreamEduLogin from "../../Projects/DreamEdu-Login.JPG";
-import DreamEduImages from "../../Projects/Dreamedu-Look-image.JPG";
-import travelGuruHome from "../../Projects/Travel-guru-Home.JPG";
-import travelGuruLogin from "../../Projects/Travel-guru-Login.JPG";
-import travelGuruMap from "../../Projects/travel-guru-map.png";
-import travelGuruSearch from "../../Projects/Travel-Search.png";
-import onlineHomePage from "../../Projects/Online-university/Home-page.JPG";
-import footerOnlinePage from "../../Projects/Online-university/footer.JPG";
-import onlineGroupStudy from "../../Projects/Online-university/group-chat-page.JPG";
-import onlinLoginPage from "../../Projects/Online-university/login-page.JPG";
+import home from "../../Projects/helthcare/healthcare (1).png";
+import about from "../../Projects/helthcare/healthcare (2).png";
+import manage from "../../Projects/helthcare/healthcare (3).png";
+import add from "../../Projects/helthcare/healthcare (4).png";
+import bycicleHome from "../../Projects/bycicle/home.png";
+import bycicleDashboard from "../../Projects/bycicle/dashboard.png";
+import bycicleLogin from "../../Projects/bycicle/login.png";
+import bycicleProduct from "../../Projects/bycicle/product.png";
+import travel1 from "../../Projects/Tourism/Tourism (1).png";
+import travel2 from "../../Projects/Tourism/Tourism (2).png";
+import travel3 from "../../Projects/Tourism/Tourism (3).png";
+import travel4 from "../../Projects/Tourism/Tourism4.png";
 import { Link } from "react-router-dom";
 import {
   slideInRight,
@@ -48,31 +44,29 @@ const SomeProjects = () => {
         <div className="row mt-2 carousel-area">
           <div className="col-md-5 col-lg-5 col-sm-5" style={styles.bounce}>
             <ProjectsCarousel
-              home={DreamEduHome}
-              about={DreamEduDashboard}
-              manage={DreamEduLogin}
-              add={DreamEduImages}
+              home={bycicleHome}
+              about={bycicleDashboard}
+              manage={bycicleLogin}
+              add={bycicleProduct}
             ></ProjectsCarousel>
           </div>
           <div
             className="col-md-7 col-lg-7 col-sm-7"
             style={styles.slideInLeft}
           >
-            <h3 className="project-title">Dream Edu Scholarship Center</h3>
+            <h3 className="project-title">Faster Bycicle</h3>
             <p className="project-description">
-              This is an Full-Stack Scholarship consultancy website.User can
-              Select University and Apply for scholarship also can Complete
-              payment via Online payment.
+              This is an Full-Stack bycicle related website.User can
+              Select bycicle and purchase it from online payment.
             </p>
             <div className="project-detailsP">
               <li>Have admin and user different dashboard.</li>
               <li> Admin can delete, add, manage services.</li>
               <li> Admin can Make Admin also</li>
-              <li>User can Login via (Google Sign-in,FaceBook Sign-in) </li>
+              <li>User can Login via (Google Sign-in) </li>
               <li>
                 <strong className="technology">Front-end technology:</strong>{" "}
-                React js, Bootstrap,React Router, Firebase Authentication,React
-                Spring
+                React js, Bootstrap,React Router, Firebase Authentication
               </li>
               <li>
                 <strong className="technology">Back-end technology:</strong>{" "}
@@ -82,14 +76,14 @@ const SomeProjects = () => {
           </div>
           <div className="text-center w-100 m-auto">
             <button className="btn btn-info project-button">
-              <a target="_blank" href="https://dreamedu-cn.web.app/">
+              <a target="_blank" href="https://bycicle-1356f.firebaseapp.com/home">
                 Live Preview
               </a>
             </button>
             <button className="btn btn-info ml-5 project-button">
               <a
                 target="_blank"
-                href="https://github.com/gias-uddin-swe/DreamEdu-client"
+                href="https://github.com/lakidHasan/Bicycle-Website-Client-Site-"
               >
                 Source Code
               </a>
@@ -101,56 +95,48 @@ const SomeProjects = () => {
         <div className="row mt-2 carousel-area">
           <div className="col-md-5 col-lg-5 col-sm-5" style={styles.bounce}>
             <ProjectsCarousel
-              home={onlineHomePage}
-              about={footerOnlinePage}
-              manage={onlineGroupStudy}
-              add={onlinLoginPage}
+              home={travel1}
+              about={travel2}
+              manage={travel3}
+              add={travel4}
             ></ProjectsCarousel>
           </div>
           <div
             className="col-md-7 col-lg-7 col-sm-7"
             style={styles.slideInLeft}
           >
-            <h3 className="project-title">Online University</h3>
+            <h3 className="project-title">Getaway-Tourism</h3>
             <p className="project-description">
-              This is an single page website.This is university is platform
-              anyone can choose his/her course and start learning and explore
-              his/her idea in the real field.Concept was invented in the
-              COVID-19 time.
+              This is a tourism related website.Anyone can access this website and book their offer.
             </p>
             <div className="project-detailsP">
               <li>
-                User must need to Login via Google or create an free account
+                User must need to Login via Google 
               </li>
-              <li>User need to enroll the course and join Study Campus.</li>
+              <li>User and admin are same access avaiable in this website </li>
               <li>
-                User can can Create or Join Study Group based on his/her Course.
-              </li>
-              <li>
-                User will allow to chat with in his/her group member after
-                enroll courses.(still working,Based on Real-time chatting){" "}
+                Six service avaiable in home page and other is offer section 
               </li>
               <li>
-                <strong className="technology">Front-end technology:</strong>{" "}
-                React js,Redux,React-redux, Bootstrap,React Router, Firebase
-                Authentication,React Spring,
+              Book destination by pick up offer button then its show order section.{" "}
               </li>
               <li>
-                <strong className="technology">Back-end technology:</strong>{" "}
-                Coming soon
+                <strong className="technology">Technology:</strong>{" "}
+                React js,Redux,React-Hook, Bootstrap,React Router, Firebase
+                Authentication, Node, MongoDB 
               </li>
             </div>
           </div>
           <div className="text-center w-100 m-auto">
             <button className="btn btn-info project-button">
-              <a target="_blank" href="https://dreamedu-cn.web.app/">
+              <a target="_blank" href="https://getaway-tourism.firebaseapp.com/">
                 Live Preview
               </a>
             </button>
             <button className="btn btn-info ml-5 project-button">
               <a
                 target="_blank"
-                href="https://github.com/gias-uddin-swe/DreamEdu-client"
+                href="https://github.com/lakidHasan/getaway-tourism-website-Client-Side-"
               >
                 Source Code
               </a>
@@ -176,43 +162,36 @@ const SomeProjects = () => {
             className="col-md-7 col-lg-7 col-sm-7"
             style={styles.slideInRight}
           >
-            <h3 className="project-title">Spicy Magic restaurant Website</h3>
+            <h3 className="project-title">Medi-Plus Website</h3>
             <p className="project-description">
-              This is an Full-Stack Food Delivery and restaurant Website.User
-              can Choice the Food For Breakfast,Lunch and Dinner.user can Login
+              This is an single page application.It's basically helth realated website User can Choice and pick up order.user can Login
               via Google sign.
             </p>
             <div className="project-detailsP">
               <li>
-                Users can order food and give a review for each food and
-                restaurant.
+              Users can login with google and he/she’s name shows on display.
               </li>
-              <li> Have admin dashboard and user dashboard.</li>
-              <li> Admin can delete, add, manage Foods.</li>
+              <li> Users can easily use this site because it's a one page website .</li>
+              <li> User can select and cancel appoinment.</li>
               <li>
-                User Can Create an Account and Login Via firebase authentication
+              All service shows on the home page. So users can easily select their service.
               </li>
               <li>
                 <strong className="technology">Front-end technology:</strong>{" "}
-                React js, Bootstrap,React Router, Firebase Authentication,React
-                Spring
-              </li>
-              <li>
-                <strong className="technology">Back-end technology:</strong>{" "}
-                Node js,Express js, MongoDB,Session Storage
+                React js, Bootstrap,React Router, Firebase Authentication
               </li>
             </div>
           </div>
           <div className="text-center w-100 m-auto">
             <button className="btn btn-info project-button">
-              <a target="_blank" href="https://spicy-magic.web.app/">
+              <a target="_blank" href="https://medi-plus-healthcare.firebaseapp.com/">
                 Live Preview
               </a>
             </button>
             <button className="btn btn-info ml-5 project-button">
               <a
                 target="_blank"
-                href="https://github.com/gias-uddin-swe/magic-spicy-client"
+                href="https://github.com/lakidHasan/medi-plus-healthcare"
               >
                 Source Code
               </a>
@@ -220,61 +199,7 @@ const SomeProjects = () => {
           </div>
         </div>
 
-        <div className="row mt-2 carousel-area">
-          <div
-            className="col-md-5 col-lg-5 col-sm-5"
-            style={styles.slideInLeft}
-          >
-            <ProjectsCarousel
-              home={travelGuruHome}
-              about={travelGuruLogin}
-              manage={travelGuruMap}
-              add={travelGuruSearch}
-            ></ProjectsCarousel>
-          </div>
-          <div
-            className="col-md-7 col-lg-7 col-sm-7"
-            style={styles.slideInLeft}
-          >
-            <h3 className="project-title">Travel guru Website</h3>
-            <p className="project-description">
-              This is Travel service Agency website.user can login via Facebook
-              sign-in,Google Sign-in and also Can Create an New Account for use
-              the services.user can Choice the service as he/she want.
-            </p>
-            <div className="project-detailsP">
-              <li>User can Choice the perfect vehicle as he/she Want</li>
-              <li>
-                user also can see his/her Current location to Destination in
-                Google Map
-              </li>
-              <li>Firebase Authentication Used in this Website</li>
-              <li>
-                Uer Can Login via (Google,Facebook,Github)also can Create
-                Account
-              </li>
-              <li>
-                <strong className="technology">Front-end Technology:</strong>{" "}
-                React js, Bootstrap,React Router,Firebase Authentication,Wow js
-              </li>
-            </div>
-          </div>
-          <div className="text-center w-100 m-auto">
-            <button className="btn btn-info project-button">
-              <a target="_blank" href="https://react-authh.web.app/">
-                Live Preview
-              </a>
-            </button>
-            <button className="btn btn-info ml-5 project-button">
-              <a
-                target="_blank"
-                href="https://github.com/gias-uddin-swe/travel-guru"
-              >
-                Source Code
-              </a>
-            </button>
-          </div>
-        </div>
+        
         <div id="moreButton" className="text-center pb-5 more-projects-btn">
           <Link to="/projects">
             <button className="btn ">More Projects</button>

@@ -53,12 +53,11 @@ const About = () => {
               <h1 className="title about-name">I'M LAKID HASAN</h1>
             </div>
             <p className="my-description " style={styles.bounce}>
-              I am an enthusiastic JavaScript developer with knowing some
-              framework for the frontend and the backend. I know Basic Python
-              and MySQL but basically a MERN developer. I always focus on
-              learning new technology. I am currently studying in the Department
-              of Software Engineering at Yunnan University{" "}
-              <small>kunming,Yunnan,China</small>.
+              I am a junior JavaScript developer with knowing some
+              framework for the frontend and the backend. I know Basic node js
+              and MongoDB. Basically i'm a MERN stack developer. I always focus on
+              learning new technology.{" "}
+              <small>Tangail,Dhaka,Bangladesh</small>.
             </p>
 
             <div className="mt-5 mb-5" style={styles.slideInUp}>
@@ -66,7 +65,7 @@ const About = () => {
                 <a
                   className="icon-button"
                   target="_blank"
-                  href="https://www.linkedin.com/in/gias-uddin-4167181b5/"
+                  href="https://www.linkedin.com/in/lakid-hasan/"
                 >
                   <FontAwesomeIcon icon={faLinkedin} />
                 </a>
@@ -75,7 +74,7 @@ const About = () => {
                 <a
                   className="icon-button"
                   target="_blank"
-                  href="https://github.com/gias-uddin-swe"
+                  href="https://github.com/lakidHasan"
                 >
                   {" "}
                   <FontAwesomeIcon icon={faGithub} />
@@ -85,7 +84,7 @@ const About = () => {
                 <a
                   className="icon-button"
                   target="_blank"
-                  href="https://mail.google.com/mail/u/2/#inbox"
+                  href="https://outlook.live.com/mail/0/"
                 >
                   <FontAwesomeIcon icon={faEnvelope} />
                 </a>
@@ -94,7 +93,7 @@ const About = () => {
                 <a
                   className="icon-button"
                   target="_blank"
-                  href="https://www.instagram.com/nirob.753/"
+                  href="https://www.instagram.com/lakid70/"
                 >
                   {" "}
                   <FontAwesomeIcon icon={faInstagram} />
@@ -104,7 +103,7 @@ const About = () => {
                 <a
                   className="icon-button"
                   target="_blank"
-                  href="https://www.facebook.com/nirob.753"
+                  href="https://www.facebook.com/lakid.hasan/"
                 >
                   <FontAwesomeIcon icon={faFacebookSquare} />
                 </a>
@@ -126,7 +125,6 @@ const About = () => {
                 <p className="skills-btn">CSS3</p>
                 <p className="skills-btn">Bootstrap</p>
                 <p className="skills-btn">JavaScript (ES6)</p>
-                <p className="skills-btn">React Spring</p>
                 <p className="skills-btn">Wordpress</p>
               </div>
               <li className="text-left mt-3 mb-2 sklis">Comfortable:</li>
@@ -134,37 +132,36 @@ const About = () => {
                 <p className="skills-btn">Redux</p>
                 <p className="skills-btn">Node</p>
                 <p className="skills-btn">MongoDB</p>
-                <p className="skills-btn">Python</p>
               </div>
-              <li className="text-left mt-3 mb-2 sklis">Familiar:</li>
-              <div className="row">
+              {/* <li className="text-left mt-3 mb-2 sklis">Familiar:</li> */}
+              {/* <div className="row">
                 <p className="skills-btn">MySQL</p>
                 <p className="skills-btn">Java</p>
                 <p className="skills-btn">Spring Boot</p>
                 <p className="skills-btn">C</p>
-              </div>
-              <li className="text-left mt-3 mb-2 sklis">Extra Skills:</li>
+              </div> */}
+              {/* <li className="text-left mt-3 mb-2 sklis">Extra Skills:</li>
               <div className="row">
                 <p className="skills-btn">Adobe Photoshop</p>
                 <p className="skills-btn">Machine Learning</p>
                 <p className="skills-btn">Deep Learning Algorithm</p>
                 <p className="skills-btn">Networking</p>
                 <p className="skills-btn">Computer Architecture</p>
-              </div>
+              </div> */}
               <li className="text-left mt-3 mb-2 sklis">Tools:</li>
               <div className="row">
                 <p className="skills-btn">Git</p>
-                <p className="skills-btn">Axure RP 9</p>
+                {/* <p className="skills-btn">Axure RP 9</p> */}
                 <p className="skills-btn">VS Code</p>
                 <p className="skills-btn">Code Blocks</p>
                 <p className="skills-btn">Chrome Dev Tool</p>
                 <p className="skills-btn">Heroku</p>
                 <p className="skills-btn">Firebase</p>
-                <p className="skills-btn">NaviCat</p>
+                {/* <p className="skills-btn">NaviCat</p> */}
                 <p className="skills-btn">Netlify</p>
-                <p className="skills-btn">MS Office</p>
+                {/* <p className="skills-btn">MS Office</p>
                 <p className="skills-btn">Anaconda</p>
-                <p className="skills-btn">Jupiter NoteBook</p>
+                <p className="skills-btn">Jupiter NoteBook</p> */}
               </div>
             </div>
             <div className="col-md-6 mt-5" style={styles.bounce}>

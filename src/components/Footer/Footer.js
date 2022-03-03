@@ -23,30 +23,30 @@ const Footer = () => {
           <button className="icon-button">
             <a
               target="_blank"
-              href="https://www.linkedin.com/in/gias-uddin-4167181b5/"
+              href="https://www.linkedin.com/in/lakid-hasan/"
             >
               <FontAwesomeIcon icon={faLinkedin} />
             </a>
           </button>
           <button className="icon-button">
-            <a className="icon-button" className="icon-button" target="_blank" href="https://github.com/gias-uddin-swe">
+            <a className="icon-button" className="icon-button" target="_blank" href="https://github.com/lakidHasan">
               {" "}
               <FontAwesomeIcon icon={faGithub} />
             </a>
           </button>
           <button className="icon-button">
-            <a className="icon-button" target="_blank" href="https://mail.google.com/mail/u/2/#inbox">
+            <a className="icon-button" target="_blank" href="https://outlook.live.com/mail/0/">
               <FontAwesomeIcon icon={faEnvelope} />
             </a>
           </button>
           <button className="icon-button">
-            <a className="icon-button" target="_blank" href="https://www.instagram.com/nirob.753/">
+            <a className="icon-button" target="_blank" href="https://www.instagram.com/lakid70/">
               {" "}
               <FontAwesomeIcon icon={faInstagram} />
             </a>
           </button>
           <button className="icon-button">
-            <a className="icon-button" target="_blank" href="https://www.facebook.com/nirob.753">
+            <a className="icon-button" target="_blank" href="https://www.facebook.com/lakid.hasan/">
               <FontAwesomeIcon icon={faFacebookSquare} />
             </a>
           </button>

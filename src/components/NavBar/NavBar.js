@@ -83,6 +83,7 @@ const NavBar = () => {
           <li className="nav-item">
             <button className="my-resume">
               <a
+                target="_blank"
                 className="resume-download" 
                 href="https://drive.google.com/file/d/1TdzR1203l9EEIhhHbZdNNEUTD6P4JyOY/view?usp=sharing"
                 download

@@ -84,26 +84,7 @@ const SomeBlogs = () => {
                     </button>
                   </div>
                 </div>
-                <div className="card-bottom  row w-100 m-auto">
-                  <div
-                    style={styles.slideInRight}
-                    className="card-reaction1 card-reaction pl-4"
-                  >
-                    <h3>4</h3>
-                    <p>READ</p>
-                  </div>
-                  <div
-                    style={styles.slideInLeft}
-                    className="card-reaction2 card-reaction pl-2"
-                  >
-                    <h3>5123</h3>
-                    <p>VIEWS</p>
-                  </div>
-                  <div className="card-reaction3 card-reaction pl-2">
-                    <h3>23</h3>
-                    <p>COMMENTS</p>
-                  </div>
-                </div>
+                
               </div>
             </div>
           ))}

@@ -104,7 +104,7 @@ const AboutMe = () => {
                   <a
                     className="icon-button"
                     target="_blank"
-                    href="https://www.instagram.com/nirob.753/"
+                    href="https://www.instagram.com/lakid70/"
                   >
                     {" "}
                     <FontAwesomeIcon icon={faInstagram} />
@@ -126,12 +126,7 @@ const AboutMe = () => {
                 </div>
                 <div className="col-md-6 col-sm-12 mb-5">
                   <button className="btn btn-info mt-3 resume-download">
-                    <a className=""
-                      href="https://drive.google.com/file/d/1TdzR1203l9EEIhhHbZdNNEUTD6P4JyOY/view?usp=sharing"
-                      download
-                    >
-                      Resume
-                    </a>
+                   <a download="" href="./../../Images/pdf/Lakid-Resume.pdf">Resume</a>
                   </button>
                 </div>
               </div>
