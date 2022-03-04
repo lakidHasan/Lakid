@@ -1,4 +1,5 @@
-import React from "react";
+import React, { useRef } from "react";
+import emailjs from '@emailjs/browser';
 import "./ContactMe.css";
 import {
   slideInRight,
@@ -27,12 +28,25 @@ const ContactMe = () => {
       animationName: Radium.keyframes(bounceIn, "bounce"),
     },
   };
+
+  const form = useRef();
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs.sendForm('service_0i1nn7n', 'template_dvc6ogm', e.target,'wFDfco5SNDilqZ4k6')
+      .then((result) => {
+          console.log(result.text);
+      }, (error) => {
+          console.log(error.text);
+      });
+  };
   return (
     <StyleRoot>
       <div className="container mt-5 ">
         <div className="text-center w-70 m-auto">
           <h2 className="font">Contact Me</h2>
-          <form>
+          <form ref={form} onSubmit={sendEmail}>
             <input
               className="w-75 input"
               type="text"
