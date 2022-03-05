@@ -126,7 +126,7 @@ const AboutMe = () => {
                 </div>
                 <div className="col-md-6 col-sm-12 mb-5">
                   <button className="btn btn-info mt-3 resume-download">
-                   <a download="" href="./../../Images/pdf/Lakid-Resume.pdf">Resume</a>
+                   <a download="" href="Lakid-Resume.pdf">Resume</a>
                   </button>
                 </div>
               </div>

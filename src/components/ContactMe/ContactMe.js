@@ -29,12 +29,10 @@ const ContactMe = () => {
     },
   };
 
-  const form = useRef();
-
-  const sendEmail = (e) => {
+  function sendEmail (e){
     e.preventDefault();
 
-    emailjs.sendForm('service_0i1nn7n', 'template_dvc6ogm', e.target,'wFDfco5SNDilqZ4k6')
+    emailjs.sendForm('service_oth6obt', 'template_bpvpwfn', e.target,'E-FmYAhOa6OmIKPmn')
       .then((result) => {
           console.log(result.text);
       }, (error) => {
@@ -46,10 +44,11 @@ const ContactMe = () => {
       <div className="container mt-5 ">
         <div className="text-center w-70 m-auto">
           <h2 className="font">Contact Me</h2>
-          <form ref={form} onSubmit={sendEmail}>
+          <form  onSubmit={sendEmail}>
             <input
               className="w-75 input"
               type="text"
+              name="name"
               placeholder="Your Name"
               required
               style={styles.bounce}
@@ -58,6 +57,7 @@ const ContactMe = () => {
             <input
               type="email"
               className="w-75 input"
+              name="user-email"
               type="text"
               placeholder="Your Email"
               required
@@ -66,6 +66,7 @@ const ContactMe = () => {
             <br />
             <input
               className="w-75 input-message"
+              name="message"
               type="text"
               placeholder="Type your message"
               required

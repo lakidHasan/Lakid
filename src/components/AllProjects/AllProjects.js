@@ -8,13 +8,8 @@ import EshopAdmin from "../../Projects/E-shop/admin.png";
 import EshopProduct from "../../Projects/E-shop/product.png";
 import Eshopsubscription from "../../Projects/E-shop/subscription.png";
 
-import doctorsPOrtal from "../../Projects/doctors.JPG";
-import doctorAppointment from "../../Projects/othersProjects/Doctors-Appoinments.JPG";
-import doctorLogin from "../../Projects/othersProjects/doctors-Login.JPG";
 // import doctorExtra from "../../Projects/othersProjects/doctors-Home";
 
-import leageHome from "../../Projects/othersProjects/championsLeag-Home.JPG";
-import leageDetails from "../../Projects/othersProjects/championsLeag-Details.JPG";
 import SomeProjects from "../Projects/SomeProjects";
 import Footer from "../Footer/Footer";
 import NavBar from "../NavBar/NavBar";
